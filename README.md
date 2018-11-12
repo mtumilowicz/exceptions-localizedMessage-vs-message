@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/exceptions-localizedMessage-vs-message.svg?branch=master)](https://travis-ci.com/mtumilowicz/exceptions-localizedMessage-vs-message)
+
 # exceptions-localizedMessage-vs-message
 Example of exceptions: localizedMessage vs message.
 
@@ -33,7 +35,7 @@ Moreover three `.properties` classes:
 * `exceptions_fr_FR.properties`
 
 # tests
-In `ExceptionMessageTest` we provided tests for
+In `ExceptionMessageTest` we provided tests for:
 * `getMessage()`
 * `getLocalizedMessage()` with `Locale.FR`
 * `getLocalizedMessage()` with `Locale.EN`
