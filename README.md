@@ -29,7 +29,7 @@ where:
 ResourceBundle labels = ResourceBundle.getBundle("exceptions");
 ```
 
-Moreover three `.properties` classes:
+and three `.properties` classes:
 * `exceptions.properties`
 * `exceptions_en_US.properties`
 * `exceptions_fr_FR.properties`
