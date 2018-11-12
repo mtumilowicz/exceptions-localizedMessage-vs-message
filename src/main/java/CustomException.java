@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
  */
 class CustomException extends RuntimeException {
 
-    private final static ResourceBundle labels = ResourceBundle.getBundle("exceptions");
+    private final ResourceBundle labels = ResourceBundle.getBundle("exceptions");
 
     CustomException(String message) {
         super(message);
